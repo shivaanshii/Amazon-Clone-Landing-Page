@@ -30,6 +30,7 @@ a{
 .logo{
     background-image: url("amazon-dark-logo.png");
     background-size: cover;
+    background-position: center;
     height: 58px;
     width: 100%;
 }
@@ -85,7 +86,7 @@ a{
     border: none;
 }
 .search-input{
-    width: 650px;
+    width: 550px;
     font-size: 15px;
     border: none;
 }
@@ -119,10 +120,10 @@ a{
     justify-content: center;
 }
 .font1{
-    font-size:10px;
+    font-size:12px;
 }
 .font2{
-    font-size:12px;
+    font-size:14px;
     font-weight: bold;
 } 
 .font3{
@@ -215,10 +216,20 @@ a{
     width: 24%;
     box-sizing: border-box;
 }
-
+.headings{
+    height: 60px;
+    width: 100%;
+}
+.container_all{
+    height: 250px;
+}
+.bottom-link{
+    position: relative;
+    top: 25px;
+}
 /* 1 */
 .small-cont1{
-    height: 75%;
+    /* height: 75%; */
     width: cover;
     box-sizing: border-box;
     display: flex;
@@ -230,12 +241,15 @@ a{
     font-size: small;
     height: 40%;
     width: 40%;
+    margin: 5px;
     padding: 2px;
+    background-position: center;
 }
 .bottom-left-text1{
     position: relative;
     top: 110px;
     left: 2px;
+    text-align: center;
 }
 .img-1_1{
     background-image:url("img-1.1.jpg") ;
@@ -262,12 +276,12 @@ a{
 .img2-adding{
     background-image: url("box\ 2.jpg");
     background-size: cover;
-    height: 75%;
+    /* height: 75%; */
 }
 
 /* 3 */
 .small-cont2{
-    height: 75%;
+    /* height: 75%; */
     width: cover;
     box-sizing: border-box;
     display: flex;
@@ -279,12 +293,15 @@ a{
     font-size: small;
     height: 40%;
     width: 34%;
+    margin: 5px;
     padding: 2px;
+    background-position: center;
 }
 .bottom-left-text2{
     position: relative;
     top: 100px;
     left: 2px;
+    text-align: center;
 }
 .img-2_1{
     background-image:url("img-2.1.jpg") ;
@@ -311,7 +328,7 @@ a{
 .img4-adding{
     background-image: url("box\ 4.jpg");
     background-size: cover;
-    height: 75%;
+    /* height: 75%; */
 }
 
 /* 5 */
@@ -339,13 +356,14 @@ a{
     position: relative;
     top: 90px;
     left: 1px;
+    text-align: center;
 }
 
 /* 6 */
 .img6-adding{
     background-image: url("box\ 6.jpg");
     background-size: cover;
-    height: 75%;
+    /* height: 75%; */
 }
 
 /* 7 */
@@ -382,7 +400,7 @@ a{
 .img8-adding{
     background-image: url("box\ 8.jpg");
     background-size: cover;
-    height: 75%;
+    /* height: 75%; */
 }
 
 /* panel-bottom */
