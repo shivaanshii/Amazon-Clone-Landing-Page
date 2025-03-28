@@ -125,7 +125,10 @@ a{
     font-size:12px;
     font-weight: bold;
 } 
-
+.font3{
+    font-size:15px;
+    font-weight: bold;
+} 
 /* box6 */
 .nav-returns-orders {
     width: 90px;
@@ -441,12 +444,12 @@ footer{
     overflow: hidden;
 }
 .bottom-boxes{
-    width: 35%;
+    width: 150px;
     display: flex;
     justify-content: space-evenly;
 }
 .ldc{
-    font-size: 15px;
+    font-size: small;
     padding: 10px;
     margin: 5px;
     border: 1px solid white ;
