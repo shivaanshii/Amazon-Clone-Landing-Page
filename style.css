@@ -441,12 +441,14 @@ footer{
     overflow: hidden;
 }
 .bottom-boxes{
-    width: 25%;
+    width: 35%;
     display: flex;
     justify-content: space-evenly;
 }
 .ldc{
+    font-size: 15px;
     padding: 10px;
+    margin: 5px;
     border: 1px solid white ;
     border-radius: 2px;
 }
