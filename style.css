@@ -34,6 +34,7 @@ a{
     width: 100%;
 }
 .border{
+    border-radius: 5%;;
     border: 1.5px solid transparent;
 }
 .border:hover{
@@ -65,7 +66,7 @@ a{
 
 /* box3 */
 .nav-search:hover{
-    border: 2px solid rgb(221, 154, 66)
+    outline: 2px solid rgb(221, 154, 66);
 }
 .nav-search{
     display: flex;
@@ -73,6 +74,7 @@ a{
     border-radius: 5px;
     margin-left: 5px;
     justify-content: space-evenly;
+    box-sizing: border-box;
 }
 .select-search{
     border-top-left-radius: 5px;
@@ -117,10 +119,10 @@ a{
     justify-content: center;
 }
 .font1{
-    font-size:12px;
+    font-size:10px;
 }
 .font2{
-    font-size:15px;
+    font-size:12px;
     font-weight: bold;
 } 
 
@@ -163,6 +165,7 @@ a{
 }
 
 .p-all{
+    border-radius: 5%;
     display: flex;
     align-items: center;
     height: 25px;
